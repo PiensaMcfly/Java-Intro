@@ -1,0 +1,51 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package testeando;
+
+import java.util.Scanner;
+
+
+
+/**
+ *
+ * @author MegaTecnologia
+ */
+public class Testeando {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       System.out.println("Holaa");
+        Scanner leer = new Scanner(System.in);
+        System.out.println("iNGRESE UN NUM");
+       
+
+// TODO code application logic here
+        int numero = leer.nextInt();
+        byte numerito;
+        short like;
+        boolean longi = false; 
+        float decimales;
+        char u1h= 'k';
+        long lok;
+        String palabra = leer.next(); 
+        int kill;
+        
+        
+        System.out.println("numero " + numero);
+        System.out.println("palabra = " + palabra);
+  
+//         Scanner leer = new Scanner(System.in);
+//         
+//         System.out.println("Escriba su nombre");
+//         String = leer.nextline();
+//         System.out.println("Escriba su edad");
+//         
+//        
+    }
+    
+}
